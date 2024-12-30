@@ -1,0 +1,34 @@
+body {
+    background-color: #F3F1FF;
+}
+#header {
+    background: #562EFF;
+}
+.brand-logo {
+    width: 40px;
+    height: 50px;
+}
+#header li {
+    padding: 0px 10px;
+}
+#header li a {
+   color: #fff;
+}
+.custom-color {
+    color: #562EFF;
+}
+#main img{
+    width: 56px;
+    height: 56px;
+}
+#main .player p {
+    margin-bottom: 0px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+.top-player {
+    background: #fff;
+    border-radius: 10px 10px 0px 0px;
+    padding: 30px 25px;
+    margin-top: 30px;
+}
