@@ -4,6 +4,9 @@ body {
 #header {
     background: #562EFF;
 }
+.custom-color {
+    color: #562EFF;
+}
 .brand-logo {
     width: 40px;
     height: 50px;
@@ -14,10 +17,7 @@ body {
 #header li a {
    color: #fff;
 }
-.custom-color {
-    color: #562EFF;
-}
-#main img{
+#main .player img{
     width: 56px;
     height: 56px;
 }
@@ -27,8 +27,31 @@ body {
     font-weight: 500;
 }
 .top-player {
-    background: #fff;
     border-radius: 10px 10px 0px 0px;
-    padding: 30px 25px;
-    margin-top: 30px;
+}
+#main .empty {
+    background: lightgray;
+    height: 1px;
+}
+/*Fix container width problem*/
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        padding-right: calc(var(--bs-gutter-x)* -1.5);
+        padding-left: calc(var(--bs-gutter-x)* -1.5);
+    }
+#course .card{
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.1);
+    border: none;
+}
+#course .card .card-text{
+    color: #ED6B4F;
+}
+#course .card .card-body img {
+    display: block;
+    width: 13px;
+    height: 11px;
+}
+#course .clock-area {
+    background-color: rgba(255, 0, 0, 0.2);
+    padding: 2px 10px;
+    border-radius: 50px;
 }
